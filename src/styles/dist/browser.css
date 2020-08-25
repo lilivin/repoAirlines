@@ -1,0 +1,156 @@
+.browserContainer {
+  background-image: url("../photos/mainPhoto.jpg");
+  background-position: center;
+  height: 55vh;
+  padding-top: 5vh;
+}
+.browserContainer .browser {
+  display: block;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  top: 55%;
+  transform: translateY(-25%);
+}
+@media (min-width: 768px), (orientation: landscape) {
+  .browserContainer .browser {
+    position: static;
+    transform: translateY(0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.browserContainer .browser__select {
+  height: 50px;
+  margin: 10px;
+}
+@media (min-width: 768px) {
+  .browserContainer .browser__select {
+    margin: 0 10px;
+  }
+}
+.browserContainer .browser__select .label {
+  color: white;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+.browserContainer .browser__select .input {
+  display: block;
+  border-radius: 20px;
+  padding: 5px 10px;
+  width: 200px;
+  margin: 0 auto;
+}
+@media (min-width: 768px), (orientation: landscape) {
+  .browserContainer .browser__select .input {
+    margin: 0;
+  }
+}
+.browserContainer .browser__select .input:focus {
+  outline: none;
+}
+.browserContainer .browser__button {
+  border-radius: 20px;
+  height: 50px;
+  padding: 5px 50px;
+  margin: 10px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 3px solid white;
+  transition: 0.3s;
+}
+.browserContainer .browser__button:hover {
+  transform: scale(1.1);
+}
+.browserContainer .browser__button:focus {
+  outline: none;
+}
+@media (min-width: 768px) {
+  .browserContainer .browser__button {
+    margin: 0 10px;
+    padding: 5px 70px;
+  }
+}
+@media (orientation: landscape) {
+  .browserContainer .browser__button {
+    margin: 0 10px;
+    padding: 5px 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .flights {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+}
+
+.flight {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 15px auto auto;
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
+  box-shadow: 3px 4px 22px -2px rgba(0, 0, 0, 0.54);
+  border-radius: 20px;
+}
+@media (min-width: 768px) {
+  .flight {
+    width: 40%;
+  }
+}
+.flight__infos {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.flight__button {
+  background-color: #6969fc;
+  margin: 10px;
+  width: 50%;
+  margin: 10px auto;
+  padding: 10px 10px;
+  font-size: 0.6rem;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.flight__button:hover {
+  transform: scale(0.9);
+}
+@media (min-width: 400px) {
+  .flight__button {
+    font-size: 0.8rem;
+    padding: 15px 10px;
+  }
+}
+
+.path__info {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.path__flights {
+  text-align: center;
+  font-weight: bold;
+  padding: 0 20px;
+}
+
+.hide {
+  transition: 0.3s;
+  transform: scaleY(0);
+  transform-origin: top;
+}
+
+.display {
+  transform: scaleY(1);
+}

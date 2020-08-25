@@ -1,0 +1,9 @@
+.footer {
+  background-color: lightgray;
+}
+.footer__description {
+  font-size: 0.8rem;
+  margin: 0;
+  padding: 40px 30px;
+  text-align: center;
+}

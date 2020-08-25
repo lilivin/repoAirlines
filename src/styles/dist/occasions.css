@@ -1,0 +1,58 @@
+@media (min-width: 768px) {
+  .occasions {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+.occasionsContainer__header {
+  text-align: center;
+}
+
+.occasion {
+  width: 90vw;
+  border-radius: 0 0 20px 20px;
+  margin: 0 auto;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.occasion:hover {
+  transform: scale(0.95);
+}
+@media (min-width: 768px) {
+  .occasion {
+    width: 30vw;
+  }
+}
+.occasion .header {
+  text-align: center;
+}
+.occasion .ateny {
+  background-image: url("../photos/ateny.jpg");
+}
+.occasion .budapest {
+  background-image: url("../photos/budapest.jpg");
+}
+.occasion .lizbona {
+  background-image: url("../photos/lizbona.jpg");
+}
+.occasion__header {
+  height: 40vh;
+  border-radius: 20px 20px 0 0;
+  background-size: cover;
+  box-shadow: 3px 4px 22px -2px rgba(0, 0, 0, 0.54);
+}
+.occasion__header .occasionText {
+  position: relative;
+  top: 50%;
+  text-align: center;
+  transform: translateY(-50%);
+  color: white;
+}
+.occasion__description {
+  margin: 0;
+  padding: 20px 5px;
+  text-align: center;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 3px 4px 22px -2px rgba(0, 0, 0, 0.54);
+}
