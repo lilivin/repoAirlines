@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/repoAirlines/static/css/main.5b4754a3.chunk.css",
-    "main.js": "/repoAirlines/static/js/main.bbf42fe8.chunk.js",
-    "main.js.map": "/repoAirlines/static/js/main.bbf42fe8.chunk.js.map",
+    "main.css": "/repoAirlines/static/css/main.7b228fa8.chunk.css",
+    "main.js": "/repoAirlines/static/js/main.77a827cf.chunk.js",
+    "main.js.map": "/repoAirlines/static/js/main.77a827cf.chunk.js.map",
     "runtime-main.js": "/repoAirlines/static/js/runtime-main.aaec531d.js",
     "runtime-main.js.map": "/repoAirlines/static/js/runtime-main.aaec531d.js.map",
     "static/js/2.487bf461.chunk.js": "/repoAirlines/static/js/2.487bf461.chunk.js",
     "static/js/2.487bf461.chunk.js.map": "/repoAirlines/static/js/2.487bf461.chunk.js.map",
     "index.html": "/repoAirlines/index.html",
-    "precache-manifest.15f299d17eeedcf8ff05d9b2fef45f42.js": "/repoAirlines/precache-manifest.15f299d17eeedcf8ff05d9b2fef45f42.js",
+    "precache-manifest.658d5ba576d9128554500f9befcefdbd.js": "/repoAirlines/precache-manifest.658d5ba576d9128554500f9befcefdbd.js",
     "service-worker.js": "/repoAirlines/service-worker.js",
-    "static/css/main.5b4754a3.chunk.css.map": "/repoAirlines/static/css/main.5b4754a3.chunk.css.map",
+    "static/css/main.7b228fa8.chunk.css.map": "/repoAirlines/static/css/main.7b228fa8.chunk.css.map",
     "static/js/2.487bf461.chunk.js.LICENSE.txt": "/repoAirlines/static/js/2.487bf461.chunk.js.LICENSE.txt",
     "static/media/occasions.scss": "/repoAirlines/static/media/lizbona.cb121f37.jpg",
     "static/media/browser.scss": "/repoAirlines/static/media/mainPhoto.09260306.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.aaec531d.js",
     "static/js/2.487bf461.chunk.js",
-    "static/css/main.5b4754a3.chunk.css",
-    "static/js/main.bbf42fe8.chunk.js"
+    "static/css/main.7b228fa8.chunk.css",
+    "static/js/main.77a827cf.chunk.js"
   ]
 }
