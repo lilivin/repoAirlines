@@ -1,8 +1,8 @@
-#Treść zadania:
+# Treść zadania:
 
-##Lista dostępnych lotnisk:
+## Lista dostępnych lotnisk:
 'ATH' 'BSL' 'BFS' 'BLQ' 'BTS' 'BRS' 'CRL' 'BUD' 'DUB' 'EDI' 'EIN' 'GLA' 'HAM' CTA' 'KEF' 'CGN' 'SUF' 'LCA' 'LPL' 'LIS' 'LTN' 'STN' 'MAD'
-Lista połączeń:
+## Lista połączeń:
 - ['ATH','EDI']
 - ['ATH','GLA']
 - ['ATH','CTA']
@@ -24,11 +24,11 @@ Lista połączeń:
 - ['KEF','LPL']
 - ['KEF','CGN']
 - ['SUF','LIS']
-['SUF','BUD']
-['SUF','STN']
-['STN','EIN']
-['STN','HAM']
-['STN','DUB']
-['STN','KEF']
+- ['SUF','BUD']
+- ['SUF','STN']
+- ['STN','EIN']
+- ['STN','HAM']
+- ['STN','DUB']
+- ['STN','KEF']
 Przygotuj stronę linii lotniczych na której po wybraniu jednego z lotnisk pokaże się najkrótsza droga między nimi
 Musimy udostępnic klientom loty do każdego zakątka, dlatego potrzebujemy aplikacji która pozwoli na to aby pokazać klientowi możliwości gdy nie mamy bezpośredniego połączenia.
