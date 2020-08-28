@@ -30,5 +30,7 @@
 - ['STN','HAM']
 - ['STN','DUB']
 - ['STN','KEF']
+
+## Polecenie
 Przygotuj stronę linii lotniczych na której po wybraniu jednego z lotnisk pokaże się najkrótsza droga między nimi
 Musimy udostępnic klientom loty do każdego zakątka, dlatego potrzebujemy aplikacji która pozwoli na to aby pokazać klientowi możliwości gdy nie mamy bezpośredniego połączenia.
