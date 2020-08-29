@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ef29d63bf88d3892a2c9418b7caf9a14",
+    "revision": "f8b066e3a7955ed674532773d0b32205",
     "url": "/repoAirlines/index.html"
   },
   {
-    "revision": "2ca891a888a590f899fc",
-    "url": "/repoAirlines/static/css/main.1fa9c6b2.chunk.css"
+    "revision": "c145f8596d388d5418c1",
+    "url": "/repoAirlines/static/css/main.6ce8e20f.chunk.css"
   },
   {
     "revision": "9e3c635d2773c19edfba",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/repoAirlines/static/js/2.487bf461.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2ca891a888a590f899fc",
-    "url": "/repoAirlines/static/js/main.846a9dae.chunk.js"
+    "revision": "c145f8596d388d5418c1",
+    "url": "/repoAirlines/static/js/main.19bd6d5c.chunk.js"
   },
   {
     "revision": "582f91babaf9e94b23ca",
